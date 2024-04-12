@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/adc.h"
-
 int main() {
+    const int frequency;
+    uint total = 0;
     stdio_init_all();
     while (!stdio_usb_connected()) {
         sleep_ms(100);
@@ -20,14 +21,16 @@ int main() {
     adc_select_input(0); // select to read from ADC0
  
     while (1) {
-        char message[100];
-        scanf("%s", message);
-        printf("message: %s\r\n",message);
-        for (int i = 0; i<*message; i++){
-           uint16_t result = adc_read(); 
-           float convert = (float)result/1212.0;
-           printf("adc: %d\r\n",i,convert);  
-           sleep_ms (10);  
+        scanf("%d", &frequency);
+        // Reads the voltage  at 100Hz
+        for (int i=0; i<frequency; i++) {
+            // clock_t start = clock();
+            uint16_t valtage = adc_read();
+            total += valtage;
+            sleep_ms(10);
         }
+        // Prints back the voltages in the units of volts
+        printf("Voltage: %fV\r\n", ((double)total * 3.3) / (frequency * 4090));
+        }
+        return 0;
     }
-}
