@@ -3,7 +3,6 @@
 #include "hardware/adc.h"
 int main() {
     const int frequency;
-    uint total = 0;
     stdio_init_all();
     while (!stdio_usb_connected()) {
         sleep_ms(100);
@@ -22,15 +21,15 @@ int main() {
  
     while (1) {
         scanf("%d", &frequency);
-        // Reads the voltage  at 100Hz
+        // adc_val accumulator
+        // Reads the voltage on ADC0 that number of times at 100Hz
         for (int i=0; i<frequency; i++) {
             // clock_t start = clock();
-            uint16_t valtage = adc_read();
-            total += valtage;
+            uint16_t voltage = adc_read();
             sleep_ms(10);
+        // Prints the voltages in the units of volts
+            printf("Voltage detected: %fV\r\n", (voltage * 3.3) / 4090);
         }
-        // Prints back the voltages in the units of volts
-        printf("Voltage: %fV\r\n", ((double)total * 3.3) / (frequency * 4090));
         }
         return 0;
     }
