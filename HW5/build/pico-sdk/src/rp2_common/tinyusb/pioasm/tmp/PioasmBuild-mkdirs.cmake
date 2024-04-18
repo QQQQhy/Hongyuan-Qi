@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "C:/Users/17155/ME433/Pico/pico-sdk/tools/pioasm"
-  "C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/pioasm"
-  "C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/pico-sdk/src/rp2_common/tinyusb/pioasm"
-  "C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/pico-sdk/src/rp2_common/tinyusb/pioasm/tmp"
-  "C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp"
-  "C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src"
-  "C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp"
+  "C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/pioasm"
+  "C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/pico-sdk/src/rp2_common/tinyusb/pioasm"
+  "C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/pico-sdk/src/rp2_common/tinyusb/pioasm/tmp"
+  "C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp"
+  "C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src"
+  "C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
 endif()

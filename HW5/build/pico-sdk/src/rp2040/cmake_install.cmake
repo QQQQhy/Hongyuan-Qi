@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/HW4")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/HW5")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
-  include("C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
+  include("C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
+  include("C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
 
 endif()
 

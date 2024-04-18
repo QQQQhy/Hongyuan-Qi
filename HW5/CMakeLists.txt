@@ -6,13 +6,13 @@ project(HW5)
 
 pico_sdk_init()
 
-add_executable(DAC)
+add_executable(HW5)
 
-target_sources(DAC PRIVATE DAC.c)
+target_sources(HW5 PRIVATE HW5.c)
 
 # Pull in our pico_stdlib which pulls in commonly used features
-target_link_libraries(DAC pico_stdlib hardware_spi)
-pico_enable_stdio_usb (DAC 1)
-pico_enable_stdio_uart (DAC 0)
+target_link_libraries(HW5 pico_stdlib hardware_i2c)
+pico_enable_stdio_usb (HW5 1)
+pico_enable_stdio_uart (HW5 0)
 # create map/bin/hex file etc.
-pico_add_extra_outputs(DAC)
+pico_add_extra_outputs(HW5)

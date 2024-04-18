@@ -33,14 +33,14 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
   "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPython/Support.cmake"
   "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPython3.cmake"
-  "C:/Users/17155/ME433/Hongyuan-Qi/HW4/CMakeLists.txt"
+  "C:/Users/17155/ME433/Hongyuan-Qi/HW5/CMakeLists.txt"
   "CMakeFiles/3.29.0/CMakeASMCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeSystem.cmake"
   "elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
   "pico-sdk/src/rp2_common/tinyusb/pioasm/tmp/PioasmBuild-mkdirs.cmake"
-  "C:/Users/17155/ME433/Hongyuan-Qi/HW4/pico_sdk_import.cmake"
+  "C:/Users/17155/ME433/Hongyuan-Qi/HW5/pico_sdk_import.cmake"
   "C:/Users/17155/ME433/Pico/pico-sdk/CMakeLists.txt"
   "C:/Users/17155/ME433/Pico/pico-sdk/cmake/Platform/PICO.cmake"
   "C:/Users/17155/ME433/Pico/pico-sdk/cmake/pico_pre_load_platform.cmake"
@@ -252,7 +252,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/DAC.dir/DependInfo.cmake"
+  "CMakeFiles/HW5.dir/DependInfo.cmake"
   "CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake"

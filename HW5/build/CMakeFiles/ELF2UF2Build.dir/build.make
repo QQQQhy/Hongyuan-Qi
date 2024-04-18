@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/17155/ME433/Hongyuan-Qi/HW4
+CMAKE_SOURCE_DIR = C:/Users/17155/ME433/Hongyuan-Qi/HW5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/17155/ME433/Hongyuan-Qi/HW4/build
+CMAKE_BINARY_DIR = C:/Users/17155/ME433/Hongyuan-Qi/HW5/build
 
 # Utility rule file for ELF2UF2Build.
 
@@ -76,47 +76,47 @@ CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-pa
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
-	"C:/Program Files/CMake/bin/cmake.exe" -E make_directory C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/CMakeFiles
-	"C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/CMakeFiles/ELF2UF2Build-complete
-	"C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
+	"C:/Program Files/CMake/bin/cmake.exe" -E make_directory C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/CMakeFiles
+	"C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/CMakeFiles/ELF2UF2Build-complete
+	"C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
-	cd C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/elf2uf2 && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
+	cd C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/elf2uf2 && $(MAKE)
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
-	cd C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/elf2uf2 && "C:/Program Files/CMake/bin/cmake.exe" -DCMAKE_MAKE_PROGRAM:FILEPATH=C:/Users/17155/GnuWin32/bin/make.exe "-GUnix Makefiles" -S C:/Users/17155/ME433/Pico/pico-sdk/tools/elf2uf2 -B C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/elf2uf2
-	cd C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/elf2uf2 && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
+	cd C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/elf2uf2 && "C:/Program Files/CMake/bin/cmake.exe" -DCMAKE_MAKE_PROGRAM:FILEPATH=C:/Users/17155/GnuWin32/bin/make.exe "-GUnix Makefiles" -S C:/Users/17155/ME433/Pico/pico-sdk/tools/elf2uf2 -B C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/elf2uf2
+	cd C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/elf2uf2 && "C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-source_dirinfo.txt
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
 	"C:/Program Files/CMake/bin/cmake.exe" -E echo_append
-	"C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+	"C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
-	cd C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/elf2uf2 && "C:/Program Files/CMake/bin/cmake.exe" -E echo_append
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
+	cd C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/elf2uf2 && "C:/Program Files/CMake/bin/cmake.exe" -E echo_append
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
-	"C:/Program Files/CMake/bin/cmake.exe" -Dcfgdir= -P C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake
-	"C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
+	"C:/Program Files/CMake/bin/cmake.exe" -Dcfgdir= -P C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake
+	"C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch-info.txt
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
 	"C:/Program Files/CMake/bin/cmake.exe" -E echo_append
-	"C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+	"C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update-info.txt
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
 	"C:/Program Files/CMake/bin/cmake.exe" -E echo_append
-	"C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
+	"C:/Program Files/CMake/bin/cmake.exe" -E touch C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 
 ELF2UF2Build: CMakeFiles/ELF2UF2Build
 ELF2UF2Build: CMakeFiles/ELF2UF2Build-complete
@@ -139,6 +139,6 @@ CMakeFiles/ELF2UF2Build.dir/clean:
 .PHONY : CMakeFiles/ELF2UF2Build.dir/clean
 
 CMakeFiles/ELF2UF2Build.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/17155/ME433/Hongyuan-Qi/HW4 C:/Users/17155/ME433/Hongyuan-Qi/HW4 C:/Users/17155/ME433/Hongyuan-Qi/HW4/build C:/Users/17155/ME433/Hongyuan-Qi/HW4/build C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/17155/ME433/Hongyuan-Qi/HW5 C:/Users/17155/ME433/Hongyuan-Qi/HW5 C:/Users/17155/ME433/Hongyuan-Qi/HW5/build C:/Users/17155/ME433/Hongyuan-Qi/HW5/build C:/Users/17155/ME433/Hongyuan-Qi/HW5/build/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ELF2UF2Build.dir/depend
 

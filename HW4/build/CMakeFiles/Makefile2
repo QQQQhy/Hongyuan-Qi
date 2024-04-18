@@ -1503,8 +1503,8 @@ pico-sdk/tools/clean:
 # Target rules for target CMakeFiles/DAC.dir
 
 # All Build rule for target.
-CMakeFiles/DAC.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 CMakeFiles/DAC.dir/all: CMakeFiles/ELF2UF2Build.dir/all
+CMakeFiles/DAC.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DAC.dir/build.make CMakeFiles/DAC.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DAC.dir/build.make CMakeFiles/DAC.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/17155/ME433/Hongyuan-Qi/HW4/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72 "Built target DAC"
