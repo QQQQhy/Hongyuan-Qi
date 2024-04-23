@@ -30,7 +30,7 @@ void drawstring(uint x, uint y, char *message)
     int i = 0;
     while (message[i])
     {
-        drawchar(x + i * (5 + 1), y * (8 + 1), message[i]);
+        drawchar(x + i * 5, y * 8 , message[i]);
         i++;
     }
     ssd1306_update();
