@@ -15,7 +15,6 @@
 #define MOTOR_IN4 9
 #define MOTOR_IN3 10
 
-void on_uart_rx();
 static int chars_rxed = 0;
 
 void setup_gpio() {
@@ -28,11 +27,10 @@ void setup_gpio() {
 }
 
 void setup_uart() {
-    uart_init(UART_ID, 2400);
+    uart_init(UART_ID, BAUD_RATE);
     gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
     gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
 
-    uart_set_baudrate(UART_ID, BAUD_RATE);
     uart_set_hw_flow(UART_ID, false, false);
     uart_set_format(UART_ID, DATA_BITS, STOP_BITS, PARITY);
     uart_set_fifo_enabled(UART_ID, false);
@@ -63,6 +61,13 @@ void control_motor(uint8_t ch) {
     }
 }
 
+void on_uart_rx() {
+    while (uart_is_readable(UART_ID)) {
+        uint8_t ch = uart_getc(UART_ID);
+        control_motor(ch);
+    }
+}
+
 int main() {
     stdio_init_all();
     setup_gpio();
@@ -70,14 +75,7 @@ int main() {
 
     uart_puts(UART_ID, "\nHello, uart interrupts\n");
 
-    while (1) {
+    while (true) {
         tight_loop_contents();
-    }
-}
-
-void on_uart_rx() {
-    while (uart_is_readable(UART_ID)) {
-        uint8_t ch = uart_getc(UART_ID);
-        control_motor(ch);
     }
 }
